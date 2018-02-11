@@ -1,0 +1,6 @@
+---
+- hosts: phpserver
+  roles:
+    - nani.php
+  tasks:
+    - package: name=php state=present
